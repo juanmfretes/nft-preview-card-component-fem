@@ -1,90 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | NFT preview card component</title>
+  <!-- Este de abajo es el ícono que aparece en el título, al lado del texto -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
+  <title>Frontend Mentor | NFT preview card component</title>
 
-    <link href="style.css" rel="stylesheet" />
-    <link href="queries.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="container">
-      <figure class="nft-card">
-        <div class="img-container">
-          <img
-            src="images/image-equilibrium.jpg"
-            alt="NFT of a cube in equilibrium over one of it corners"
-            class="nft-img"
-          />
-          <img
-            class="view-icon"
-            src="images/icon-view.svg"
-            alt="Hover state of the image"
-          />
-        </div>
-        <div class="text-box">
-          <p class="nft-name">
-            <a href="#" class="links">Equilibrium #3429</a>
-          </p>
-          <p class="nft-description">
-            Our Equilibrium collection promotes balance and calm.
-          </p>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet" />
 
-          <div class="two-cols">
-            <div class="price">
-              <img
-                class="ethereum-icon"
-                src="images/icon-ethereum.svg"
-                alt="Ethereum logo icon"
-              />
-              <p class="nft-price">0.041 ETH</p>
-            </div>
+  <link href="style.css" rel="stylesheet" />
+  <link href="queries.css" rel="stylesheet" />
+</head>
 
-            <div class="offer">
-              <img src="images/icon-clock.svg" alt="Clock icon" />
-              <p class="offer-text">3 days left</p>
-            </div>
+<body>
+  <div class="container">
+    <figure class="nft-card">
+      <div class="img-container">
+        <img src="images/image-equilibrium.jpg" alt="NFT of a cube in equilibrium over one corner" class="nft-img" />
+        <img class="view-icon" src="images/icon-view.svg" alt="Hover state of the nft image" />
+      </div>
+      <div class="text-box">
+        <p class="nft-name">
+          <a href="#" class="links">Equilibrium #3429</a>
+        </p>
+        <p class="nft-description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
+        <div class="two-cols">
+          <div class="price">
+            <img class="ethereum-icon" src="images/icon-ethereum.svg" alt="Ethereum logo icon" />
+            <p class="nft-price">0.041 ETH</p>
           </div>
 
-          <hr class="division" />
-          <div class="creator">
-            <img
-              class="creator-photo"
-              src="images/image-avatar.png"
-              alt="Photo of the NFT
-          creator"
-            />
-            <p class="creator-text">
-              Creation of
-              <a href="#" class="links">Jules Wyvern</a>
-            </p>
+          <div class="offer">
+            <img src="images/icon-clock.svg" alt="Clock icon" />
+            <p class="offer-text">3 days left</p>
           </div>
         </div>
-      </figure>
-    </div>
-  </body>
+
+        <hr class="division" />
+        <div class="creator">
+          <img class="creator-photo" src="images/image-avatar.png" alt="Photo of the NFT
+          creator" />
+          <p class="creator-text">
+            Creation of
+            <a href="#" class="links">Jules Wyvern</a>
+          </p>
+        </div>
+      </div>
+    </figure>
+  </div>
+</body>
+
 </html>
